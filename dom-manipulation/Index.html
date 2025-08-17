@@ -7,10 +7,13 @@
   </head>
   <body>
     <h1>Dynamic Quote Generator</h1>
+
     <div id="quoteDisplay"></div>
+
+    <!-- Category selector is injected by JS -->
     <button id="newQuote">Show New Quote</button>
 
-    <!-- Step 3: Add Quote UI (as provided) -->
+    <!-- Optional static inputs (if needed by your brief) -->
     <div style="margin-top: 1rem">
       <input id="newQuoteText" type="text" placeholder="Enter a new quote" />
       <input
@@ -22,6 +25,7 @@
       <button id="openDynamicForm" type="button">Open Dynamic Add Form</button>
     </div>
 
+    <!-- JSON Import / Export -->
     <div style="margin-top: 1rem">
       <button id="exportJson" type="button">Export Quotes (JSON)</button>
       <input
